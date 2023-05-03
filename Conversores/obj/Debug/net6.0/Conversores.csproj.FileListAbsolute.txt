@@ -1,0 +1,12 @@
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\bin\Debug\net6.0\Conversores.deps.json
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\bin\Debug\net6.0\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\bin\Debug\net6.0\Conversores.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.csproj.AssemblyReference.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.AssemblyInfoInputs.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.AssemblyInfo.cs
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.csproj.CoreCompileInputs.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\refint\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\ref\Conversores.dll

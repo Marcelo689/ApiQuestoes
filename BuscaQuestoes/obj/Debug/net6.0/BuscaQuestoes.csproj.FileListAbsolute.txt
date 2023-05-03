@@ -1,0 +1,15 @@
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\BuscaQuestoes.deps.json
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\BuscaQuestoes.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\BuscaQuestoes.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\Conversores.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.csproj.AssemblyReference.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.AssemblyInfoInputs.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.AssemblyInfo.cs
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.csproj.CoreCompileInputs.cache
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.csproj.CopyComplete
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\refint\BuscaQuestoes.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\ref\BuscaQuestoes.dll
