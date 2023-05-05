@@ -8,15 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "BuscaQuestoes/1.0.0": {
         "dependencies": {
-          "Conversores": "1.0.0"
+          "Conversores": "1.0.0",
+          "Dto": "1.0.0"
         },
         "runtime": {
           "BuscaQuestoes.dll": {}
         }
       },
       "Conversores/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "runtime": {
           "Conversores.dll": {}
+        }
+      },
+      "Dto/1.0.0": {
+        "runtime": {
+          "Dto.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "Conversores/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

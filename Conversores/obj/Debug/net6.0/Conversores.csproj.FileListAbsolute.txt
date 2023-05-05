@@ -10,3 +10,6 @@ C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversor
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\refint\Conversores.dll
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.pdb
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\ref\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\bin\Debug\net6.0\Dto.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\bin\Debug\net6.0\Dto.pdb
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Conversores\obj\Debug\net6.0\Conversores.csproj.CopyComplete

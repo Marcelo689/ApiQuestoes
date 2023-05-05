@@ -4,6 +4,6 @@ namespace QuestoesApplication.Models
 {
     public class ProvaViewModel
     {
-        public List<QuestaoDto> Model { get; internal set; }
+        public List<QuestaoDto> ListaQuestoes { get;set; }
     }
 }

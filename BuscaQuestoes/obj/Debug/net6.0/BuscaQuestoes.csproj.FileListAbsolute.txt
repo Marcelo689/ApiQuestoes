@@ -13,3 +13,5 @@ C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQu
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\refint\BuscaQuestoes.dll
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\BuscaQuestoes.pdb
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\obj\Debug\net6.0\ref\BuscaQuestoes.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\Dto.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\BuscaQuestoes\bin\Debug\net6.0\Dto.pdb

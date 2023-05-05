@@ -1,4 +1,5 @@
 ﻿using Conversores.Conversor;
+using Dto.QuestoesDto;
 
 namespace BuscaQuestoes.BuscarJson
 {
@@ -10,10 +11,10 @@ namespace BuscaQuestoes.BuscarJson
             return await _client.GetStringAsync(url); 
         }
 
-        public static async Task<List<ObjetoRetorno>> ObjectFromUrl<ObjetoRetorno>(string url)
+        public static async Task<List<QuestaoDto>> ObjectFromUrl(string url)
         {
             var jsonFromUrl = HttpsString(url).Result;
-            var lista = Conversor.JsonTo<List<ObjetoRetorno>>(jsonFromUrl);
+            var lista = Conversor.JsonTo(jsonFromUrl);
             return lista;
         }
     }

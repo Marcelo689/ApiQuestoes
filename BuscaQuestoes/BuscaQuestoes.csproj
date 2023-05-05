@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Conversores\Conversores.csproj" />
+    <ProjectReference Include="..\Dto\Dto.csproj" />
   </ItemGroup>
 
 </Project>

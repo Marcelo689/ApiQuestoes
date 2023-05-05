@@ -22,7 +22,7 @@ namespace QuestoesApplication.Controllers
         public IActionResult Prova()
         {
             var viewModel = new ProvaViewModel();
-            viewModel.Model = _provaService.GetQuestoesAsync().Result;
+            viewModel.ListaQuestoes = _provaService.GetQuestoesAsync().Result;
             return View(viewModel);  
         }
     }

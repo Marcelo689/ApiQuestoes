@@ -167,7 +167,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Conversores": "1.0.0"
+          "Conversores": "1.0.0",
+          "Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BuscaQuestoes.dll": {}
@@ -179,6 +180,9 @@
       "Conversores/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Conversores.dll": {}
         },

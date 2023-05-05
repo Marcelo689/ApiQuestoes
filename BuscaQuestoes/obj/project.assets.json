@@ -5,11 +5,24 @@
       "Conversores/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Conversores.dll": {}
         },
         "runtime": {
           "bin/placeholder/Conversores.dll": {}
+        }
+      },
+      "Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dto.dll": {}
         }
       }
     }
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Conversores/Conversores.csproj",
       "msbuildProject": "../Conversores/Conversores.csproj"
+    },
+    "Dto/1.0.0": {
+      "type": "project",
+      "path": "../Dto/Dto.csproj",
+      "msbuildProject": "../Dto/Dto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Conversores >= 1.0.0"
+      "Conversores >= 1.0.0",
+      "Dto >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -63,6 +82,9 @@
           "projectReferences": {
             "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Conversores\\Conversores.csproj": {
               "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Conversores\\Conversores.csproj"
+            },
+            "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj": {
+              "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj"
             }
           }
         }

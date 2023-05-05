@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dto.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dto/1.0.0": {
+      "type": "project",
+      "path": "../Dto/Dto.csproj",
+      "msbuildProject": "../Dto/Dto.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Dto >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marce\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj": {
+              "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

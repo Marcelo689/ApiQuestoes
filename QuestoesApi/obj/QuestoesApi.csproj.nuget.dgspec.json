@@ -36,6 +36,9 @@
             "projectReferences": {
               "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Conversores\\Conversores.csproj": {
                 "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Conversores\\Conversores.csproj"
+              },
+              "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj"
               }
             }
           }
@@ -98,7 +101,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\Dto\\Dto.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
