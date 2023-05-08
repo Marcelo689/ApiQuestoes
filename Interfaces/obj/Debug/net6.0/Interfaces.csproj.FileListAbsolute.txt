@@ -13,3 +13,5 @@ C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\obj\Debug\net6.0\Interfaces
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\obj\Debug\net6.0\Interfaces.pdb
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\bin\Debug\net6.0\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\Interfaces\bin\Debug\net6.0\Conversores.pdb

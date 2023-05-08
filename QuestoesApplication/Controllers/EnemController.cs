@@ -1,18 +1,15 @@
 ﻿using Interfaces.Prova;
 using Microsoft.AspNetCore.Mvc;
-using QuestoesApplication.Models;
 
 namespace QuestoesApplication.Controllers
 {
     public class EnemController : Controller
     {
-
         public IProvaService _provaService { get; }
         public EnemController(IProvaService provaService)
         {
             _provaService = provaService;
         }
-
 
         public IActionResult Index()
         {
@@ -21,8 +18,7 @@ namespace QuestoesApplication.Controllers
 
         public IActionResult Prova()
         {
-            var viewModel = new ProvaViewModel();
-            viewModel.ListaQuestoes = _provaService.GetQuestoesAsync().Result;
+            var viewModel = _provaService.GetQuestoesAsync().Result;
             return View(viewModel);  
         }
     }

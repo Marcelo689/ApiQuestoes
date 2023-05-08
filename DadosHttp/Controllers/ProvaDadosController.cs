@@ -1,6 +1,6 @@
 ﻿using DadosHttp.FictionalData;
-using Dto.QuestoesDto;
 using Microsoft.AspNetCore.Mvc;
+using QuestoesApplication.Models;
 
 namespace DadosHttp.Controllers
 {
@@ -11,7 +11,7 @@ namespace DadosHttp.Controllers
     {
 
         [HttpGet]
-        public List<QuestaoDto> ProvaDataJson()
+        public ProvaViewModel ProvaDataJson()
         {
             var dados = DadosFalsos.Dados();
             return dados;

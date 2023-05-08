@@ -32,3 +32,5 @@ C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\obj\Debug\net6.0\refint\Dado
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\obj\Debug\net6.0\DadosHttp.pdb
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\obj\Debug\net6.0\DadosHttp.genruntimeconfig.cache
 C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\obj\Debug\net6.0\ref\DadosHttp.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\bin\Debug\net6.0\Conversores.dll
+C:\Users\marce\Desktop\C#\ProjetoQuestoes\DadosHttp\bin\Debug\net6.0\Conversores.pdb

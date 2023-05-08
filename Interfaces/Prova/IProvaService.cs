@@ -1,8 +1,8 @@
-﻿using Dto.QuestoesDto;
+﻿using QuestoesApplication.Models;
 
 namespace Interfaces.Prova;
 
 public interface IProvaService
 {
-    Task<List<QuestaoDto>> GetQuestoesAsync();
+    Task<ProvaViewModel> GetQuestoesAsync();
 }

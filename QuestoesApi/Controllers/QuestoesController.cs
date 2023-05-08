@@ -1,6 +1,7 @@
 ﻿using Dto.QuestoesDto;
 using Interfaces.Prova;
 using Microsoft.AspNetCore.Mvc;
+using QuestoesApplication.Models;
 
 namespace QuestoesApi.Controllers
 {
@@ -15,7 +16,7 @@ namespace QuestoesApi.Controllers
         }
 
         [HttpGet("RetornaQuestoes")]
-        public async Task<List<QuestaoDto>> RetornaQuestoesFromService()
+        public async Task<ProvaViewModel> RetornaQuestoesFromService()
         {
             var lista = await _provaservice.GetQuestoesAsync();
             return lista;

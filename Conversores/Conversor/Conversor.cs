@@ -1,13 +1,13 @@
-﻿using Dto.QuestoesDto;
+﻿using QuestoesApplication.Models;
 using System.Text.Json;
 
 namespace Conversores.Conversor
 {
     public static class Conversor
     {
-        public static List<QuestaoDto> JsonTo(string json)
+        public static ProvaViewModel JsonTo(string json)
         {
-            return JsonSerializer.Deserialize<List<QuestaoDto>>(json);
+            return JsonSerializer.Deserialize<ProvaViewModel>(json);
         }
     }
 }

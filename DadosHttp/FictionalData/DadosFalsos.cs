@@ -1,34 +1,41 @@
 ﻿using Dto.QuestoesDto;
+using QuestoesApplication.Models;
 
 namespace DadosHttp.FictionalData
 {
     public static class DadosFalsos
     {
-        public static List<QuestaoDto> Dados()
+        public static ProvaViewModel Dados()
         {
-            var dados = new List<QuestaoDto>
+            var dados = new ProvaViewModel()
             {
-                new QuestaoDto
+                Questoes = new List<QuestaoDto>()
                 {
-                    Id= 1,
-                    OpcaoCorreta = LettersOptions.B,
-                    Questao = new QuestaoItem(){Descricao = "Maça ..."}
-                },new QuestaoDto
-                {
-                    Id= 2,
-                    OpcaoCorreta = LettersOptions.B,
-                    Questao = new QuestaoItem(){Descricao = "abacate ..."}
-                },new QuestaoDto
-                {
-                    Id= 3,
-                    OpcaoCorreta = LettersOptions.B,
-                    Questao = new QuestaoItem(){Descricao = "sangue ..."}
-                },new QuestaoDto
-                {
-                    Id= 4,
-                    OpcaoCorreta = LettersOptions.B,
-                    Questao = new QuestaoItem(){Descricao = "mar ..."}
-                },
+                    new QuestaoDto
+                    {
+                        Id= 1,
+                        OpcaoCorreta = LettersOptions.B,
+                        Questao = new QuestaoItem(){Descricao = "Maça ..."}
+                    },
+                    new QuestaoDto
+                    {
+                        Id= 2,
+                        OpcaoCorreta = LettersOptions.B,
+                        Questao = new QuestaoItem(){Descricao = "abacate ..."}
+                    },
+                    new QuestaoDto
+                    {
+                        Id= 3,
+                        OpcaoCorreta = LettersOptions.B,
+                        Questao = new QuestaoItem(){Descricao = "sangue ..."}
+                    },
+                    new QuestaoDto
+                    {
+                        Id= 4,
+                        OpcaoCorreta = LettersOptions.B,
+                        Questao = new QuestaoItem(){Descricao = "mar ..."}
+                    },
+                    }.ToArray()
             };
             return dados;
         }

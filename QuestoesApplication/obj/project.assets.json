@@ -43,6 +43,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Conversores": "1.0.0",
           "Dto": "1.0.0"
         },
         "compile": {

@@ -1,8 +1,16 @@
 ﻿using Conversores.Conversor;
 using Dto.QuestoesDto;
+using QuestoesApplication.Models;
 
 namespace BuscaQuestoes.BuscarJson
 {
+    public static class Formatar
+    {
+        internal static string StringParaJson(string stringJson)
+        {
+            return stringJson.Replace(@"\","");
+        }
+    }
     public static class Buscar
     {
         private static HttpClient _client = new HttpClient();
@@ -11,10 +19,12 @@ namespace BuscaQuestoes.BuscarJson
             return await _client.GetStringAsync(url); 
         }
 
-        public static async Task<List<QuestaoDto>> ObjectFromUrl(string url)
+        public static async Task<ProvaViewModel> ObjectFromUrl(string url)
         {
-            var jsonFromUrl = HttpsString(url).Result;
-            var lista = Conversor.JsonTo(jsonFromUrl);
+            var stringJson = await HttpsString(url);
+
+            //stringJson = Formatar.StringParaJson(stringJson);
+            var lista = Conversor.JsonTo(stringJson);
             return lista;
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace Dto.QuestoesDto
+﻿using System.Text.Json.Serialization;
+
+namespace Dto.QuestoesDto
 {
     public enum LettersOptions
     {
@@ -11,7 +13,10 @@
 
     public class QuestaoItem
     {
+        [JsonPropertyName("descricao")]
         public string Descricao { get; set; }
+
+        [JsonPropertyName("opcoes")]
         public Dictionary<string, LettersOptions> Opcoes { get; set; }
 
         public QuestaoItem()

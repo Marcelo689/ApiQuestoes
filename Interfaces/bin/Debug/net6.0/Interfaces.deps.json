@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "Interfaces/1.0.0": {
         "dependencies": {
+          "Conversores": "1.0.0",
           "Dto": "1.0.0"
         },
         "runtime": {
           "Interfaces.dll": {}
+        }
+      },
+      "Conversores/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
+        "runtime": {
+          "Conversores.dll": {}
         }
       },
       "Dto/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Conversores/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
