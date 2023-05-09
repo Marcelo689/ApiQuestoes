@@ -22,6 +22,11 @@ namespace QuestoesApi.Controllers
             return lista;
         }
 
+        [HttpPost]
+        public void SalvarQuestoes(ProvaViewModel? model)
+        {
+
+        }
         [HttpGet]
         public List<QuestaoDto> DadosQuestoes()
         {
