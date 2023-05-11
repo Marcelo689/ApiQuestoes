@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DPQEoV8aMksNVuid9BNExgrNcTTVAhYU8xyy6O1Mkkc=",
+  "Hash": "5bXsw+RKZwQC/HVRpGXYQBEqz32vffsjDlryM32QQss=",
   "Source": "QuestoesApplication",
   "BasePath": "_content/QuestoesApplication",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\QuestoesApplication.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\wwwroot\\css\\Questoes\\Index.css",
+      "SourceId": "QuestoesApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\wwwroot\\",
+      "BasePath": "_content/QuestoesApplication",
+      "RelativePath": "css/Questoes/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Questoes\\Index.css"
     },
     {
       "Identity": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\wwwroot\\css\\site.css",

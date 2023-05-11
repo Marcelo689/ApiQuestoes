@@ -16,5 +16,13 @@ namespace DadosHttp.Controllers
             var dados = DadosFalsos.Dados();
             return dados;
         }
+
+
+        [HttpGet("Palavra")]
+        public string Palavra()
+        {
+            return "nada";
+        }
+
     }
 }

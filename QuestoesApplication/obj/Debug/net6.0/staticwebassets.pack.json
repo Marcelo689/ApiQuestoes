@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\QuestoesApplication.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\wwwroot\\css\\Questoes\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Questoes\\Index.css"
+    },
+    {
       "Id": "C:\\Users\\marce\\Desktop\\C#\\ProjetoQuestoes\\QuestoesApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

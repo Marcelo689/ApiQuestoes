@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.Pagina{
+    margin:100px;
+}
+
+.Pagina h1{
+    text-align:center;
+    text-shadow:blue 2px 2px 0px;
+}

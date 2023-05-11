@@ -1,24 +1,32 @@
 ﻿@using QuestoesApplication.Models;
 
+<link rel="stylesheet" href="~/css/Questoes/Index.css"/>
+
 @model ProvaViewModel
+
+<div class="Pagina">
 
 <h1>Prova Enem</h1>
 
-<form action="Api/Questoes/SalvarQuestoes" method="post">
+    <form action="Api/Questoes/SalvarQuestoes" method="post">
 
-    @foreach (var item in Model.Questoes)
-    {
-        <div>
-
-            <h1>@item.Questao.Descricao</h1>
-
-            @foreach (var opcao in item.Questao.Opcoes)
+            @foreach (var item in Model.Questoes)
             {
+                <div>
 
-                    <label>@opcao.Key</label>
-                    <input type="radio" name="@item.Id"/>
+                    <h2>@item.Questao.Descricao</h2>
+
+                    @foreach (var opcao in item.Questao.Opcoes)
+                    {
+
+                                <label>@opcao.Key</label>
+                                <input type="radio" name="@item.Id"/>
+                                <br />
+                    }
+                    <hr>
+                </div>
             }
-        </div>
-    }
-    <input type="submit" value="Botao" />
-</form>
+        <input class="btn btn-success" type="submit" value="Botao" />
+    </form>
+
+</div>

@@ -1,5 +1,4 @@
 ﻿using BuscaQuestoes.BuscarJson;
-using Dto.QuestoesDto;
 using Interfaces.Prova;
 using QuestoesApplication.Models;
 
