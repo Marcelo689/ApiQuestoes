@@ -25,6 +25,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Enem}/{action=Prova}/{id?}");
+    pattern: "{controller=Enem}/{action=QuestoesPaginadas}/{id?}");
 
 app.Run();

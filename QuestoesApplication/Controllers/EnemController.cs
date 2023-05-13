@@ -21,5 +21,13 @@ namespace QuestoesApplication.Controllers
             var viewModel = _provaService.GetQuestoesAsync().Result;
             return View(viewModel);  
         }
+
+        public IActionResult QuestoesPaginadas()
+        {
+            var viewModel = _provaService.GetQuestoesAsync().Result;
+            var pageQuestoes = viewModel.Questoes.Chunk(2);
+            viewModel.QuestoesEmPaginas = pageQuestoes;
+            return View(viewModel);
+        }
     }
 }

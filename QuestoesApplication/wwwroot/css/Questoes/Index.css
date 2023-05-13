@@ -9,3 +9,12 @@
     text-align:center;
     text-shadow:blue 2px 2px 0px;
 }
+
+.questao-invisivel{
+    display:none;
+}
+
+.questao-visivel{
+    display:block;
+    background-color:antiquewhite;
+}

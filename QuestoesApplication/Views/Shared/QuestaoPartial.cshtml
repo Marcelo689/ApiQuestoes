@@ -1,0 +1,16 @@
+﻿@using Dto.QuestoesDto
+
+@model QuestaoDto
+
+ <div>
+
+    <h2>@Model.Questao.Descricao </h2>
+
+    @foreach (var opcao in Model.Questao.Opcoes)
+    {
+        <label>@opcao.Key</label>
+        <input type="radio" name="@Model.Id"/>
+        <br />
+    }
+    <hr>
+</div>

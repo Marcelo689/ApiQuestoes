@@ -1,4 +1,5 @@
-﻿using QuestoesApplication.Models;
+﻿
+using QuestoesApplication.Models;
 
 namespace Interfaces.Prova;
 

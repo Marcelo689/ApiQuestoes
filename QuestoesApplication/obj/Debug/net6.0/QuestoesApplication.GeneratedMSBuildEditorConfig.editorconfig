@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5lbVxQcm92YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/marce/Desktop/C\#/ProjetoQuestoes/QuestoesApplication/Views/Enem/QuestoesPaginadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5lbVxRdWVzdG9lc1BhZ2luYWRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/marce/Desktop/C\#/ProjetoQuestoes/QuestoesApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/marce/Desktop/C\#/ProjetoQuestoes/QuestoesApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marce/Desktop/C\#/ProjetoQuestoes/QuestoesApplication/Views/Shared/QuestaoPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFF1ZXN0YW9QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/marce/Desktop/C\#/ProjetoQuestoes/QuestoesApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
