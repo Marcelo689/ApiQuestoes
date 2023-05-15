@@ -1,11 +1,15 @@
-﻿using Interfaces.Prova;
+﻿using Dto.QuestoesDto;
+using Interfaces.Prova;
 using Microsoft.AspNetCore.Mvc;
+using QuestoesApplication.Models;
 
 namespace QuestoesApplication.Controllers
 {
     public class EnemController : Controller
     {
         public IProvaService _provaService { get; }
+
+        private ProvaViewModel provaVMBase { get; set; }   
         public EnemController(IProvaService provaService)
         {
             _provaService = provaService;
@@ -18,16 +22,29 @@ namespace QuestoesApplication.Controllers
 
         public IActionResult Prova()
         {
-            var viewModel = _provaService.GetQuestoesAsync().Result;
+            var viewModel = provaVMBase = _provaService.GetQuestoesAsync().Result;
             return View(viewModel);  
         }
 
-        public IActionResult QuestoesPaginadas()
+        public IActionResult QuestoesPaginadas(ProvaViewModel? viewModel)
         {
-            var viewModel = _provaService.GetQuestoesAsync().Result;
-            var pageQuestoes = viewModel.Questoes.Chunk(2);
-            viewModel.QuestoesEmPaginas = pageQuestoes;
+            if(viewModel.Questoes == null)
+                viewModel = provaVMBase = _provaService.GetQuestoesAsync().Result;
+            viewModel.Questoes = viewModel.Questoes.Skip(viewModel.NumeroDeQuestaoPorPagina * viewModel.PaginaAtual).ToArray();
+            var pageQuestoes = viewModel.Questoes.Take(viewModel.NumeroDeQuestaoPorPagina);
+            viewModel.QuestoesDaPagina = pageQuestoes.ToList();
+
             return View(viewModel);
+        }
+        public IActionResult QuestoesPaginadasNext(ProvaViewModel provaViewModel)
+        {
+            provaVMBase.NextPage();
+            return RedirectToAction("QuestoesPaginadas", provaViewModel);
+        }
+        public IActionResult QuestoesPaginadasPrev(ProvaViewModel provaViewModel)
+        {
+            provaViewModel.PrevPage();
+            return RedirectToAction(nameof(QuestoesPaginadas), provaViewModel);
         }
     }
 }

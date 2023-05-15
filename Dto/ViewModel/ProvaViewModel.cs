@@ -5,18 +5,23 @@ namespace QuestoesApplication.Models
 {
     public class ProvaViewModel
     {
-        public ProvaViewModel()
-        {
-            if (PageIncrement && QuestoesEmPaginas.Count() > PaginaAtual)
-                PaginaAtual++;
-            if(PageDecrement && PaginaAtual > 1)
-                PaginaAtual--;
-        }
         [JsonPropertyName("questoes")]
         public QuestaoDto[] Questoes { get; set; }
         public IEnumerable<QuestaoDto[]> QuestoesEmPaginas { get; set; }
-        public int PaginaAtual { get; set; } = 1;
-        public bool PageIncrement { get; set; } = false;
-        public bool PageDecrement { get; set; } = false;
+        public List<QuestaoDto> QuestoesDaPagina { get; set; }  
+        public int PaginaAtual { get; set; } = 0;
+        public int NumeroDeQuestaoPorPagina = 2;
+        public void NextPage()
+        {
+            if(QuestoesEmPaginas != null)
+            if (QuestoesEmPaginas.Count() > PaginaAtual)
+                PaginaAtual++;
+        }
+
+        public void PrevPage()
+        {
+            if (PaginaAtual > 1)
+                PaginaAtual--;
+        }
     }
 }

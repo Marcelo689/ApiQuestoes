@@ -5,50 +5,23 @@
 
 @{
     var contadorPagina = 0;
+    var contador = 0;
 }
 
-<form>
-
-    @foreach (var Questoes in Model.QuestoesEmPaginas){
-        contadorPagina++;
-        var contador = 0;
-
         @Html.Raw(contadorPagina == Model.PaginaAtual ? "<div class='questao-visivel'>" : "<div class='questao-invisivel'>")   
-            @foreach (var questao in Questoes)
+            @foreach (var questao in Model.QuestoesDaPagina)
             {
                 contador++;
                 <partial name="~/Views/Shared/QuestaoPartial.cshtml" model="questao"/>
 
-                if(contador == Questoes.Length)
+                if(contador == Model.QuestoesDaPagina.Count())
                 {
                     <div style="display:flex; flex-direction:row; justify-content:center; justify-items:center">
-                        @Html.ActionLink("Prev","QuestoesPaginadas", Model)
-                        @Html.ActionLink("Next","QuestoesPaginadas", Model)
+                        @Html.ActionLink("Prev","QuestoesPaginadasPrev", Model)
+                        @Html.ActionLink("Next","QuestoesPaginadasNext", Model)
                     </div>
                 }
 
             }
         @Html.Raw("</div>")
-    }
-</form>
 
-<script>
-    function prev(paginaAtual){
-        if(paginaAtual > 1)
-        {
-            @{
-                Model.PaginaAtual -= 1; 
-            }
-            console.log(@Model.PaginaAtual);
-        }
-    }
-
-    function next(paginaAtual){
-        if(paginaAtual < @Model.QuestoesEmPaginas.Count()){
-            @{
-                Model.PaginaAtual += 1;
-            }
-            console.log(@Model.PaginaAtual);
-        }
-    }
-</script>
